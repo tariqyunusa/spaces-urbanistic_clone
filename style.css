@@ -61,7 +61,7 @@ li{
    
 }
 .left__side{
-    width: 50%;
+    width: 35%;
     display: flex;
     justify-content: end;
 
@@ -78,10 +78,12 @@ a:hover{
 
 .left__side ul{
     display: flex;
-    
+    position: relative;
+    left: 15%;
+    width: 40%;
 }
 .left__side li{
-   padding-right: 20px;
+   
    list-style: none;
    
 }
@@ -99,7 +101,7 @@ a:hover{
 .vl{
     border: .5px solid black;
     width: 85%;
-    margin-left: 74px;
+    margin-left: 7.5%;
     
 }
 .star{
@@ -123,4 +125,7 @@ a:hover{
 }
 .end:hover{
     color: #2c7365;
+}
+.left__side .li-2{
+    padding-right: 23%;
 }
